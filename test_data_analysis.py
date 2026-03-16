@@ -1,6 +1,6 @@
 import pandas as pd
 
-from finance_analysis import (
+from data_analysis import (
     total_revenue_all_time,
     total_revenue_between_years,
     total_revenue_for_year,

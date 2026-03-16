@@ -1,7 +1,7 @@
 from pathlib import Path
 import pandas as pd
 
-
+#Loading data from path
 def load_data(file_path: Path) -> pd.DataFrame:
     df = pd.read_csv(file_path)
     df["Year"] = pd.to_numeric(df["Year"])
