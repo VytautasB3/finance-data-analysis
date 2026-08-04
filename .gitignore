@@ -1,4 +1,14 @@
+# Virtual environment
 .venv/
+venv/
+# Python cache
 __pycache__/
-*.xlsx
-finance.csv
+*.pyc
+# Pytest cache
+.pytest_cache/
+# Generated output files
+finance_analysis_final.xlsx
+# Environment variables / secrets
+.env
+# VS Code
+.vscode/

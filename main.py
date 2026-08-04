@@ -82,7 +82,7 @@ def add_bar_chart(worksheet, chart_title: str, data_title: str) -> None:
 
 def main():
     # Create dynamic file path variable to save file path
-    file_path = Path(r"C:\Users\Vartotojas\Documents\python\finance.csv")
+    file_path = Path(__file__).parent / "finance.csv"
 
     # Load data
     df = load_data(file_path)
